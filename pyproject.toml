@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fidance"
+version = "0.1.0"
+description = "data pipeline demo project"
+authors = ["bookra <omar.abdelbadie1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.0"
+uvicorn = "^0.31.0"
+requests = "^2.32.3"
+pandas = "^2.2.3"
+pyspark = "^3.5.3"
+sqlalchemy = "^2.0.35"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

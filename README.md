@@ -90,5 +90,6 @@ erDiagram
 1. Create a `.env` and add API Keys for Alphavantage and FMP
 ```
 ALPHAVANTAGE_API_KEY=XXXX
-FMP_API_KEY=XXXX
+FMP_API_KEY=XXXX      # https://site.financialmodelingprep.com/developer/docs/dashboard
+POLYGON_API_KEY=XXXX  # https://polygon.io/dashboard
 ``` 
